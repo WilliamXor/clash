@@ -45,6 +45,7 @@ func init() {
 	})
 }
 
+
 func main() {
 	maxprocs.Set(maxprocs.Logger(func(string, ...any) {}))
 	if version {
